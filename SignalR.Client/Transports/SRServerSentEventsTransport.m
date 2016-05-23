@@ -147,7 +147,7 @@ typedef void (^SRCompletionHandler)(id response, NSError *error);
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     [manager setResponseSerializer:[SREventSourceResponseSerializer serializer]];
 
-#warning - Passing "nil" instead of "operation.outputStream"
+//#warning - Passing "nil" instead of "operation.outputStream"
 //        _eventSource = [[SREventSourceStreamReader alloc] initWithStream:operation.outputStream];
     _eventSource = [[SREventSourceStreamReader alloc] initWithStream:nil];
     _eventSource.opened = ^() {
