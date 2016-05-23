@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "SignalR-ObjC"
   s.version      = "2.0.2"
   s.summary      = “This is a duplicate of project(https://github.com/DyKnow/SignalR-ObjC.git). I have updated this project to support AFNetworking 3.0“
-  s.homepage     = "https://github.com/DyKnow/SignalR-ObjC"
+  s.homepage     = "https://github.com/maheshverma/SamplePod"
   s.license      = 'MIT'
   s.author       = { “Mahesh Verma“ => “maheshsearch01@gmail.com” }
   s.source   	 = { 
