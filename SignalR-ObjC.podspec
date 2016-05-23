@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.default_subspec = 'Core'
+#  s.default_subspec = 'Core'
   s.name         = "SignalR-ObjC"
   s.version      = "1.0.1"
   s.summary      = "This is a duplicate of project(https://github.com/DyKnow/SignalR-ObjC.git). I have updated this project to support AFNetworking 3.0"
@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Mahesh Verma" => "maheshsearch01@gmail.com" }
   s.source   	 = { 
-	:git => 'https://github.com/maheshverma/SamplePod.git', \
-	:tag => '1.0.1' }
+	:git => "https://github.com/maheshverma/SamplePod.git", :branch => "master" \
+	:tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.requires_arc = true
