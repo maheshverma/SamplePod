@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   s.name         = "SignalR-ObjC"
-  s.version      = “1.0.1”
+  s.version      = "1.0.1"
   s.summary      = "This is a duplicate of project(https://github.com/DyKnow/SignalR-ObjC.git). I have updated this project to support AFNetworking 3.0"
   s.homepage     = "https://github.com/maheshverma/SamplePod"
   s.license      = 'MIT'
