@@ -2,6 +2,8 @@
     <img src="https://f.cloud.github.com/assets/1089907/475156/237c7c22-b780-11e2-92e8-3787fdfe5f08.png" />
 </p>
 
+This is a duplicate of project(https://github.com/DyKnow/SignalR-ObjC.git). I have updated this project to support AFNetworking 3.0
+
 SignalR-ObjC is a client library for iOS and Mac OS X.  It's built on top of two popular open source libraries [AFNetworking](https://github.com/AFNetworking/AFNetworking) and [SocketRocket](https://github.com/square/SocketRocket).
 SignalR-ObjC is intended to be used along side ASP.NET SignalR, a new library for ASP.NET developers that makes it incredibly simple to add real-time functionality to your applications. What is "real-time web" functionality? It's the ability to have your server-side code push content to the connected clients as it happens, in real-time.
 
@@ -230,7 +232,7 @@ SignalR-ObjC requires either iOS 7.0 and above, or Mac OS 10.9 (64-bit with mode
 
 ### Networking
 
-- SignalR-ObjC uses [AFNetworking](https://github.com/AFNetworking/AFNetworking).  The minimum supported version of AFNetworking is 2.x
+- SignalR-ObjC uses [AFNetworking](https://github.com/AFNetworking/AFNetworking).  The minimum supported version of AFNetworking is 3.x
 - SignalR-ObjC uses  [SocketRocket](https://github.com/square/SocketRocket).  The minimum supported version of SocketRocket is 0.4.x
 
 

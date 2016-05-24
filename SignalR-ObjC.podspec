@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 #  s.default_subspec = 'Core'
   s.name         = "SignalR-ObjC"
-  s.version      = "1.0.1"
+  s.version      = "2.2.2"
   s.summary      = "This is a duplicate of project(https://github.com/DyKnow/SignalR-ObjC.git). I have updated this project to support AFNetworking 3.0"
   s.homepage     = "https://github.com/maheshverma/SamplePod"
   s.license      = 'MIT'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'CocoaLumberjack' do |sp|
-    sp.dependency 'CocoaLumberjack', '~>1.0'
+    sp.dependency 'CocoaLumberjack', '~>2.2.0'
     sp.dependency 'SignalR-ObjC/Core'
   end
 end
